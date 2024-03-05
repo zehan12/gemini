@@ -3,7 +3,7 @@ import { RouterProvider } from "@tanstack/react-router";
 import ReactDOM from "react-dom/client";
 
 // styles
-import "./index.css";
+import "./styles/global.css";
 
 // configs
 import router from "./routes/router.tsx";
