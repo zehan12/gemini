@@ -1,9 +1,14 @@
-function App() {
+import { Outlet, RootRoute } from "@tanstack/react-router";
+
+const App = () => {
   return (
     <>
-      <div className="text-center text-4xl font-mono">Gemini</div>
+      <Outlet />
     </>
   );
-}
+};
+
+// Create a root route
+export const rootRoute = new RootRoute({ component: App });
 
 export default App;
