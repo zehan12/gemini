@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
-import { cn } from "../../utils/cn";
+import { cn } from "../../../utils/cn";
 import { motion, MotionValue } from "framer-motion";
-import Routes from "../../constants/routes.enum";
+import Routes from "../../../constants/routes.enum";
 
 const transition = {
   duration: 0,

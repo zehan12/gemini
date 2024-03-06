@@ -6,13 +6,13 @@ import Routes from "../constants/routes.enum";
 
 // routes
 import { rootRoute } from "../App";
-import { SideBar } from "@/components/Chat";
+import { Main, SideBar } from "@/components/Chat";
 
 function Chat() {
   return (
     <div className=" flex ">
       <SideBar />
-      <div className="w-full bg-red-800">My Component</div>
+      <Main />
     </div>
   );
 }

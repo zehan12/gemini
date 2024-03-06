@@ -1,1 +1,1 @@
-export { GoogleGeminiEffect } from "./GoogleGeminiEffect";
+export { GoogleGeminiEffect } from "./GoogleGeminiEffect/GoogleGeminiEffect";

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import { HelpCircle, History, Settings } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 

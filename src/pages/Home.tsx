@@ -9,7 +9,7 @@ import { rootRoute } from "../App";
 
 import { useScroll, useTransform } from "framer-motion";
 import React from "react";
-import { GoogleGeminiEffect } from "../components/Home/GoogleGeminiEffect";
+import { GoogleGeminiEffect } from "../components/Home/GoogleGeminiEffect/GoogleGeminiEffect";
 
 export function Home() {
   const ref = React.useRef(null);
