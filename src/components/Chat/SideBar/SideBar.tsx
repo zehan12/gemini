@@ -36,7 +36,7 @@ export const SideBar = () => {
             </p>
             <div
               className={`w-2 h-2 rounded-full bg-red-700 ${isExpanded ? "fixed" : ""}`}
-            ></div>
+            />
           </div>
           <div className="flex justify-between">
             <p className="flex justify-start gap-2">
@@ -45,7 +45,7 @@ export const SideBar = () => {
             </p>
             <div
               className={`w-2 h-2 rounded-full bg-red-700 ${isExpanded ? "fixed" : ""}`}
-            ></div>
+            />
           </div>
           <div className="flex justify-between">
             <p className="flex justify-start gap-2">
@@ -54,7 +54,7 @@ export const SideBar = () => {
             </p>
             <div
               className={`w-2 h-2 rounded-full bg-red-700 ${isExpanded ? "fixed" : ""}`}
-            ></div>
+            />
           </div>
         </div>
         {!isExpanded && (
