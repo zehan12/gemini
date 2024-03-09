@@ -21,7 +21,7 @@ const promptData = [
 
 export const Prompts = () => {
   return (
-    <div className="container flex gap-3 justify-center">
+    <div className="container flex max-w-5xl gap-5 justify-center">
       {promptData.map((item) => (
         <div
           className=" w-56 h-56 p-4 flex flex-col justify-between rounded-xl bg-zinc-800/90 hover:bg-zinc-700 cursor-pointer"
