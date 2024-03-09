@@ -44,10 +44,8 @@ const geminiGeneratedChat = async (prompt: any) => {
   });
 
   const result = await chat.sendMessage(prompt);
-  const response = result.response;
-  console.log(response.text());
-}
-
-console.log("script is running");
+  console.log(result,"result")
+  return  result
+};
 
 export default geminiGeneratedChat;
