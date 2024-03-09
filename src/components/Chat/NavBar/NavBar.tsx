@@ -8,6 +8,7 @@ import {
 
 import { useState } from "react";
 import { UserMenu } from "../UserMenu";
+import { ThemeToggle } from "@/components/shared/ThemeToggle";
 
 export const NavBar = () => {
   const [option, setOption] = useState("basic");
@@ -33,6 +34,7 @@ export const NavBar = () => {
           </DropdownMenuCheckboxItem>{" "}
         </DropdownMenuContent>
       </DropdownMenu>
+      <ThemeToggle />
       <UserMenu />
     </nav>
   );
