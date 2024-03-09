@@ -1,5 +1,7 @@
 // built-ins
+import { QueryClient, QueryClientProvider } from "react-query";
 import { RouterProvider } from "@tanstack/react-router";
+
 import ReactDOM from "react-dom/client";
 
 // styles
@@ -15,6 +17,10 @@ declare module "@tanstack/react-router" {
   }
 }
 
+const queryClient = new QueryClient();
+
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <RouterProvider router={router} />
+  <QueryClientProvider client={queryClient}>
+    <RouterProvider router={router} />
+  </QueryClientProvider>
 );
