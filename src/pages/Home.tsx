@@ -41,6 +41,7 @@ export function Home() {
     </div>
   );
 }
+
 // Index route
 export const homeRoute = new Route({
   component: Home,
